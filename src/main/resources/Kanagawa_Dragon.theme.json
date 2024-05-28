@@ -1,0 +1,293 @@
+{
+  "name": "Kanagawa Dragon",
+  "dark": true,
+  "author": "",
+  "editorScheme": "/Kanagawa_Dragon.xml",
+  "colors": {
+    "fujiWhite": "#DCD7BA",
+    "sumiInk6": "#",
+    "dragonWhite": "#",
+    "oldWhite": "#C8C093",
+    "dragonBlack0": "#",
+    "dragonBlack1": "#",
+    "dragonBlack2": "#",
+    "dragonBlack3": "#",
+    "dragonBlack4": "#",
+    "dragonBlack5": "#",
+    "dragonBlack6": "#",
+    "dragonGray1": "#",
+    "dragonGray2": "#",
+    "dragonGray3": "#",
+    "waveBlue1": "#223249",
+    "waveBlue2": "#2D4F67"
+  },
+  "ui": {
+    "*": {
+      "background": "dragonBlack2",
+      "foreground": "dragonWhite",
+      "infoForeground": "oldWhite",
+      "selectionBackground": "waveBlue1",
+      "selectionInactiveBackground": "waveBlue2",
+      "selectionBackgroundInactive": "waveBlue2",
+      "selectionForeground": "dragonWhite",
+      "disabledBackground": "dragonBlack1",
+      "inactiveBackground": "dragonBlack1",
+      "acceleratorForeground": "waveAqua1",
+      "acceleratorSelectionForeground": "waveAqua1",
+      "errorForeground": "autumnRed",
+      "borderColor": "dragonBlack0"
+    },
+    "ActionButton": {
+      "hoverBackground": "dragonBlack3",
+      "hoverBorderColor": "dragonBlack3",
+      "pressedBackground": "dragonBlack3",
+      "pressedBorderColor": "dragonBlack3"
+    },
+    "Button": {
+      "foreground": "dragonWhite",
+      "startBackground": "dragonBlack3",
+      "endBackground": "dragonBlack3",
+      "startBorderColor": "dragonBlack3",
+      "endBorderColor": "dragonBlack3",
+      "shadowColor": "dragonBlack3",
+      "focusedBorderColor": "waveAqua1",
+      "default": {
+        "foreground": "dragonWhite",
+        "startBackground": "waveAqua1",
+        "endBackground": "waveAqua1",
+        "startBorderColor": "waveAqua1",
+        "endBorderColor": "waveAqua1",
+        "focusedBorderColor": "waveAqua1",
+        "focusColor": "waveAqua1"
+      },
+
+      "ComboPopup.border": "1,1,1,1,2d3137"
+    },
+    "CompletionPopup": {
+      "selectionBackground": "waveBlue2",
+      "matchForeground": "crystalBlue"
+    },
+
+    "Component": {
+      "errorFocusColor": "autumnRed",
+      "inactiveErrorFocusColor": "autumnRed",
+      "warningFocusColor": "roninYellow",
+      "inactiveWarningFocusColor": "roninYellow"
+    },
+    "Counter": {
+      "background": "waveAqua1",
+      "foreground": "oldWhite"
+    },
+    "DefaultTabs": {
+      "underlineColor": "waveAqua1",
+      "inactiveUnderlineColor": "katanaGray",
+      "hoverBackground": "dragonBlack4"
+    },
+    "DragAndDrop": {
+      "areaForeground": "dragonWhite",
+      "areaBackground": "dragonBlack1",
+      "borderColor": "dragonBlack1"
+    },
+    "Editor": {
+      "background": "dragonBlack1",
+      "foreground": "dragonWhite",
+      "SearchField": {
+        "background": "dragonBlack1"
+      },
+      "shortcutForeground": "waveAqua2"
+    },
+
+    "EditorPane.inactiveBackground": "dragonBlack3",
+
+    "EditorTabs": {
+      "underlinedTabBackground": "dragonBlack3"
+    },
+    "FileColor": {
+      "Yellow": "winterYellow",
+      "Green": "winterGreen",
+      "Blue": "winterBlue"
+    },
+    "GotItTooltip": {
+      "foreground": "dragonWhite",
+      "background": "dragonBlack3",
+      "borderColor": "dragonBlack3",
+      "linkForeground": "waveAqua1",
+      "shortcutForeground": "oldWhite"
+    },
+    "Label": {
+      "infoForeground": "dragonWhite",
+      "successForeground": "waveAqua1"
+    },
+
+    "Link": {
+      "activeForeground": "waveAqua2",
+      "hoverForeground": "waveAqua2",
+      "pressedForeground": "waveBlue2",
+      "visitedForeground": "waveBlue2"
+    },
+    "List": {
+      "selectionBackground": "dragonBlack3",
+      "selectionForeground": "dragonWhite",
+      "background": "dragonBlack0"
+    },
+    "Notification": {
+      "background": "dragonBlack3",
+      "borderColor": "#000000",
+
+      "errorForeground": "dragonWhite",
+      "errorBackground": "winterRed",
+      "errorBorderColor": "peachRed",
+
+      "MoreButton": {
+        "background": "dragonBlack2",
+        "innerBorderColor": "dragonBlack1"
+      },
+
+      "ToolWindow": {
+        "informativeForeground": "#abb2bf",
+        "informativeBackground": "#2e4280",
+        "informativeBorderColor": "#252555",
+
+        "warningForeground": "#abb2bf",
+        "warningBackground": "#735822",
+        "warningBorderColor": "#5f4422",
+
+        "errorForeground": "#abb2bf",
+        "errorBackground": "#802d43",
+        "errorBorderColor": "#552029"
+      }
+    },
+    "Panel.background": "dragonBlack2",
+    "SidePanel.background": "dragonBlack1",
+    "ParameterInfo": {
+      "background": "waveBlue1",
+      "foreground": "dragonWhite",
+      "infoForeground": "oldWhite",
+      "currentParameterForeground": "#ffffff"
+    },
+
+    "Plugins": {
+      "background": "dragonBlack1",
+      "disabledForeground": "katanaGray",
+      "hoverBackground": "dragonBlack3",
+      "lightSelectionBackground": "dragonBlack3",
+      "tagBackground": "oniViolet",
+      "tagForeground": "dragonWhite",
+
+      "Button": {
+        "installForeground": "dragonWhite",
+        "installBorderColor": "springViolet2",
+        "installFillForeground": "#ffffff",
+        "installFillBackground": "waveAqua2",
+        "updateForeground": "#ffffff",
+        "updateBackground": "waveAqua2",
+        "updateBorderColor": "waveAqua2"
+      },
+
+      "SearchField": {
+        "background": "dragonBlack1",
+        "borderColor": "#000000"
+      },
+
+      "Tab": {
+        "selectedForeground": "dragonWhite",
+        "selectedBackground": "dragonBlack2",
+        "hoverBackground": "dragonBlack3"
+      }
+    },
+
+    "ProgressBar": {
+      "trackColor": "#1D1D26",
+      "progressColor": "waveAqua2",
+      "indeterminateStartColor": "waveAqua2",
+      "indeterminateEndColor": "waveBlue2",
+      "failedColor": "peachRed",
+      "failedEndColor": "#472c33",
+      "passedColor": "#239E62",
+      "passedEndColor": "#2b4242"
+    },
+    "SearchEverywhere": {
+      "Advertiser.foreground": "oldWhite",
+      "Header.background": "waveBlue1",
+
+      "SearchField": {
+        "background": "waveBlue1",
+        "borderColor": "#000000"
+      },
+
+      "Tab": {
+        "selectedForeground": "oldWhite",
+        "selectedBackground": "waveBlue2"
+      }
+    },
+    "SearchMatch": {
+      "startBackground": "waveBlue1",
+      "endBackground": "waveBlue1"
+    },
+    "SpeedSearch": {
+      "foreground": "dragonWhite",
+      "borderColor": "#000000",
+      "background": "dragonBlack0",
+      "errorForeground": "#e06c75"
+    },
+
+    "Settings.Spotlight.borderColor": "waveAqua2",
+    "TabbedPane": {
+      "underlineColor": "waveAqua2",
+      "contentAreaColor": "dragonBlack2",
+      "hoverColor": "dragonBlack4"
+    },
+    "Table": {
+      "background": "dragonBlack1",
+      "stripeColor": "#000000",
+      "selectionForeground": "waveAqua1",
+      "foreground": "dragonWhite",
+      "dropLineColor": "dragonWhite",
+      "focusCellForeground": "dragonWhite",
+      "gridColor": "dragonBlack2",
+      "lightSelectionInactiveForeground": "dragonWhite",
+      "lightSelectionForeground": "dragonWhite",
+      "selectionBackground": "waveAqua2",
+      "selectionInactiveForeground": "waveAqua2",
+      "lightSelectionBackground": "waveAqua2",
+      "lightSelectionInactiveBackground": "waveBlue2"
+    },
+
+    "TextArea": {
+      "background": "dragonBlack1",
+      "selectionBackground": "waveBlue2"
+    },
+
+    "TextField": {
+      "background": "dragonBlack1",
+      "selectionBackground": "waveBlue2"
+    },
+
+    "ToggleButton": {
+      "onForeground": "dragonWhite",
+      "onBackground": "waveAqua2",
+      "offForeground": "oldWhite",
+      "offBackground": "katanaGray",
+      "borderColor": "#000000",
+      "buttonColor": "dragonBlack3"
+    },
+
+    "ToolTip": {
+      "background": "dragonBlack3"
+    },
+
+    "TitlePane": {
+      "infoForeground": "oldWhite",
+      "inactiveInfoForeground": "katanaGray",
+      "background": "dragonBlack3"
+    },
+
+    "Tree": {
+      "selectionBackground": "waveBlue2",
+      "modifiedItemForeground": "dragonBlue",
+      "rowHeight": 20,
+      "background": "dragonBlack1"
+    },
+    "ToolBar.background": "dragonBlack3"
+  }
+}

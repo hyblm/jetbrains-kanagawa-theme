@@ -23,5 +23,6 @@
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="15004bd4-cca7-4946-943c-8cb6c330b4ab" path="/Kanagawa_Theme.theme.json"/>
+        <themeProvider id="545833ad-10c8-412b-8541-4248a6ce8b68" path="/Kanagawa_Dragon.theme.json"/>
     </extensions>
 </idea-plugin>
